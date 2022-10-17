@@ -20,7 +20,7 @@ public class StudentController {
    @GetMapping
     public List<String> getNames(){
         
-        return Arrays.asList("Ram","Shyam","sneha","kavya","raveena");
+        return Arrays.asList("Ram","Shyam","sneha");
         
     }
     
